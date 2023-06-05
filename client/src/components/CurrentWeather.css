@@ -1,0 +1,87 @@
+/* Current Weather Card Css */
+.curWeatherCard {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  color: black;
+  background: rgb(0, 151, 170);
+  background: linear-gradient(
+    166deg,
+    rgba(0, 151, 170, 1) 30%,
+    rgba(0, 255, 241, 1) 87%
+  );
+  margin: 20px auto 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+.top-section,
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+  color: white;
+}
+
+.icon {
+  width: 100px;
+}
+
+.temp {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 0;
+}
+
+.details {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.labels {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 4px 0 0 0;
+}
+
+.values {
+  text-align: right;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 4px 0 0 0;
+}
+
+.week-day {
+  font-weight: 400;
+  font-size: 12px;
+  margin: -5px 0 0 10px;
+}
+
+.min-max {
+  font-weight: 600;
+  font-size: 12px;
+  margin: -5px 5px 0 0;
+}
